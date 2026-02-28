@@ -1,4 +1,16 @@
-
+//coleções
+v1 = [10, 3] // List <Object> v1 = new ArrayList <>();
+console.log(v1.length)
+v1[0] = 2
+console.log(v1.length)
+v1[1] = "abc"
+console.log(v1.length)
+v1[10] = "João"
+console.log(v1.length)
+console.log(v1)
+for(let i = 0; i < v1.length; i++){
+  console.log(v1[i])
+}
 
 
 //operadores de comparação por igualdade: == e ===
