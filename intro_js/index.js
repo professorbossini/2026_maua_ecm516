@@ -1,16 +1,50 @@
+// funções
+//function e arrow function
+const eAgora = () => {1}
+// const somar = (a, b) =>  a + b
+
+
+// console.log(somar(2, 3))
+// const falarOi = nome => console.log(`Oi, ${nome}` )
+// falarOi('Maria')
+// const falarOi = () => {console.log('oi')}
+// falarOi()
+// const triplo = function(n = 5){
+//   return 3 * n
+// }
+// console.log(triplo())
+// console.log(triplo(10))
+// const dobro = function (n){
+//   return 2 * n
+// }
+// console.log(dobro(6))
+// function soma(a, b){
+//   return a + b
+// }
+// const resultado = soma(2, 3)
+// console.log(resultado)
+// function hello(){
+//   console.log(`Oi`)
+// }
+// hello(undefined)
+// function hello(nome){
+//   console.log(`Oi, ${nome}`)
+// }
+// hello('Maria')
+
 //coleções
-v1 = [10, 3] // List <Object> v1 = new ArrayList <>();
-console.log(v1.length)
-v1[0] = 2
-console.log(v1.length)
-v1[1] = "abc"
-console.log(v1.length)
-v1[10] = "João"
-console.log(v1.length)
-console.log(v1)
-for(let i = 0; i < v1.length; i++){
-  console.log(v1[i])
-}
+// v1 = [10, 3] // List <Object> v1 = new ArrayList <>();
+// console.log(v1.length)
+// v1[0] = 2
+// console.log(v1.length)
+// v1[1] = "abc"
+// console.log(v1.length)
+// v1[10] = "João"
+// console.log(v1.length)
+// console.log(v1)
+// for(let i = 0; i < v1.length; i++){
+//   console.log(v1[i])
+// }
 
 
 //operadores de comparação por igualdade: == e ===
