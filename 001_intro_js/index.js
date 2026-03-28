@@ -1,18 +1,87 @@
 //promises
+// const calculoRapidinho = (n) => {
+//     return n >= 0 ? Promise.resolve((n / 2) * (n + 1)) : Promise.reject('Apenas valores maiores ou iguais a zero, por favor')
+// }
+
+// calculoRapidinho(10)
+// .then((res) => {
+//     calculoRapidinho(res).then(res2 => {
+//         calculoRapidinho(res2).then(res3 => {
+//             calculoRapidinho(res3).then(res4 => {
+//                 console.log(res4)
+//             })
+//         })
+//     })
+// })
+
+
+// calculoRapidinho(10000)
+// .then(function(resultado){console.log('Resultado: ' + resultado)})
+// .catch(erro => console.log(`Erro: ${erro}`))
+
+//1 + 2 + 3 + ... + n
+// const calculoDemorado = (n) => {
+//     let ac = 0
+//     for(let i = 1; i <= n; i++)
+//         ac += i
+//     return ac
+// }
+// const calculoDemorado = (n) => {
+//     return new Promise((resolve, reject) => {
+//         //se n for negativo, propagar um erro
+//         //caso contrário, continua como já era
+//         if (n >= 0){
+//             let ac = 0
+//             for(let i = 1; i <= n; i++)
+//                 ac += i
+//             resolve(ac)
+//         }
+//         else{
+//             reject('Apenas valores maiores ou iguais a zero')
+//         }
+//     })
+// }
+// const minhaPromise = calculoDemorado(-1000)
+// //then/catch
+// minhaPromise
+// .then((resultado) => { console.log(`Resultado: ${resultado}`)})
+// .catch((erro) => { console.log(`Erro: ${erro}`)})
+
+// console.log('A')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //1 + 2 + 3 + ... + n
 //demorando...
-const calculoDemorado = (n) => {
-    let cont = 0
-    for(let i = 1; i <= n; i++)
-        cont += i
-    return cont
-}
-const res = calculoDemorado(1000)
-console.log(res)
+// const calculoDemorado = (n) => {
+//     let cont = 0
+//     for(let i = 1; i <= n; i++)
+//         cont += i
+//     return cont
+// }
+// const res = calculoDemorado(1000)
+// console.log(res)
 
 
-//CPU Bound: predominantemente caracterizada por ciclos de cpu
-//IO Bound: predominantemente caracterizada por operações de entrada e saída
+// //CPU Bound: predominantemente caracterizada por ciclos de cpu
+// //IO Bound: predominantemente caracterizada por operações de entrada e saída
 // const fs = require('fs')
 // const nomeArquivo = 'arquivo.txt'
 // //função callback
