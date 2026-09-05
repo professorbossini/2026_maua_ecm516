@@ -1,0 +1,3 @@
+05/09: 
+  - paramos na página 112
+  - retomar implantando uma imagem inexistente
